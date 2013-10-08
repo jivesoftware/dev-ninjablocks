@@ -1,0 +1,8 @@
+{
+	"clientUrl": "http://ninjablocks-jivedev.rhcloud.com", 	
+    "port": "80",
+    "development": true,
+    "name": "NinjaBlocks for JiveWorld13",
+    "description": "This add-on contains all the Tiles for the NinjaBlocks JiveWorld13 Developer Hacker Lounge Goodness",
+    "logLevel": "DEBUG"
+} 

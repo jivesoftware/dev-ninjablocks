@@ -1,0 +1,10 @@
+{
+    "default": {
+        "name": "NinjaBlocks - JiveWorld13 - Light Gauge",
+        "displayName": "NinjaBlocks - JiveWorld13 - Light Gauge",
+        "description" : "This gauge controls RGB lights connected to NinjaBlocks",
+        "tiles": [
+            "ninjablocks-lights"
+        ]
+    }
+}

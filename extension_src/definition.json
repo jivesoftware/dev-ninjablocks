@@ -1,0 +1,116 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "message": "Waiting on Beer Temperature",
+                "sections": [
+                    {
+                        "label": "Hot",
+                        "color": "#ff0000"
+                    },
+                    {
+                        "label": "Warm",
+                        "color": "#ffb6c1"
+                    },
+                    {
+                        "label": "Unknown",
+                        "color": "#cecece"
+                    },
+                    {
+                        "label": "Cool",
+                        "color": "#b0c4de"
+                    },
+                    {
+                        "label": " ",
+                        "color": "#4169e1"
+                    }
+                ],
+                "activeIndex": 2,
+                "status": "Unknown"
+            },
+            "displayName": "NinjaBlocks - JiveWorld13 - Beer Temperature",
+            "name": "ninjablocks-beer",
+            "description": "This gauge reads from the Temperature sensor connected to NinjaBlocks and the Keg! for undefined",
+            "style": "GAUGE",
+            "icons": {
+                "16": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-sml.png",
+                "48": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-med.png",
+                "128": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-lrg.png"
+            },
+            "id": "98f0a306-563f-4269-82b8-8ff59d11f92b",
+            "published": "2013-02-28T15:12:16.768-0800",
+            "updated": "2013-02-28T15:12:16.768-0800",
+            "config": "http://ninjablocks-jivedev.rhcloud.com/ninjablocks-beer/configure",
+            "register": "http://ninjablocks-jivedev.rhcloud.com/registration"
+        },
+        {
+            "sampleData": {
+                "message": "NinjaBlocks Lights - Off",
+                "sections": [
+                    {
+                        "label": "Off",
+                        "color": "#000000"
+                    },
+                    {
+                        "label": "Teal",
+                        "color": "#5AC4CD"
+                    },
+                    {
+                        "label": "Pink",
+                        "color": "#E9248E"
+                    },
+                    {
+                        "label": "Orange",
+                        "color": "#F89829"
+                    },
+                    {
+                        "label": "Purple",
+                        "color": "#C442B0"
+                    },
+                    {
+                        "label": "Green",
+                        "color": "#5AB45C"
+                    },
+                    {
+                        "label": "Red",
+                        "color": "#C44242"
+                    },
+                    {
+                        "label": "Blue",
+                        "color": "#6896CE"
+                    }
+                ],
+                "activeIndex": 0,
+                "status": "Off"
+            },
+            "displayName": "NinjaBlocks - JiveWorld13 - Light Gauge",
+            "name": "ninjablocks-lights",
+            "description": "This gauge controls RGB lights connected to NinjaBlocks for undefined",
+            "style": "GAUGE",
+            "icons": {
+                "16": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-sml.png",
+                "48": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-med.png",
+                "128": "http://ninjablocks-jivedev.rhcloud.com/images/ninjablocks-logo-lrg.png"
+            },
+            "id": "30eca138-1703-4a55-a7eb-84386e60bc34",
+            "published": "2013-02-28T15:12:16.768-0800",
+            "updated": "2013-02-28T15:12:16.768-0800",
+            "config": "http://ninjablocks-jivedev.rhcloud.com/ninjablocks-lights/configure",
+            "register": "http://ninjablocks-jivedev.rhcloud.com/registration"
+        }
+    ],
+    "templates": [
+        {
+            "name": "NinjaBlocks - JiveWorld13 - Light Gauge",
+            "displayName": "NinjaBlocks - JiveWorld13 - Light Gauge",
+            "description": "This gauge controls RGB lights connected to NinjaBlocks",
+            "tiles": [
+                "ninjablocks-lights"
+            ]
+        }
+    ],
+    "osapps": []
+}

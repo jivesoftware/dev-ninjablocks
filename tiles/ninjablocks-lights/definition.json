@@ -1,0 +1,26 @@
+{
+    "sampleData" : {
+        "message": "NinjaBlocks Lights - Off",
+        "sections": [
+           	{ "label": "Off", 		"color": "#000000" },
+          	{ "label": "Teal",		"color": "#5AC4CD" },
+          	{ "label": "Pink",		"color": "#E9248E" },
+          	{ "label": "Orange",	"color": "#F89829" },
+          	{ "label": "Purple",	"color": "#C442B0" },
+          	{ "label": "Green",		"color": "#5AB45C" },
+          	{ "label": "Red",		"color": "#C44242" },
+          	{ "label": "Blue",		"color": "#6896CE" }
+        ],
+        "activeIndex": 0,
+        "status": "Off"
+    },
+    "displayName" : "NinjaBlocks - JiveWorld13 - Light Gauge",
+    "name" : "ninjablocks-lights",
+    "description" : "This gauge controls RGB lights connected to NinjaBlocks",
+    "style" : "GAUGE",
+    "icons" : {
+        "16" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-sml.png",
+        "48" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-med.png",
+        "128" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-lrg.png"
+    }
+}

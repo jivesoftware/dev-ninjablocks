@@ -1,0 +1,23 @@
+{
+    "sampleData" : {
+        "message": "Waiting on Beer Temperature",
+        "sections": [ 
+			{ "label": "Hot",		"color": "#ff0000" },
+			{ "label": "Warm",		"color": "#ffb6c1" },
+			{ "label": "Unknown",	"color": "#cecece" },
+        	{ "label": "Cool",		"color": "#b0c4de" },
+        	{ "label": " ",		"color": "#4169e1" }
+        ],
+        "activeIndex": 2,
+        "status": "Unknown"
+    },
+    "displayName" : "NinjaBlocks - JiveWorld13 - Beer Temperature",
+    "name" : "ninjablocks-beer",
+    "description" : "This gauge reads from the Temperature sensor connected to NinjaBlocks and the Keg!",
+    "style" : "GAUGE",
+    "icons" : {
+        "16" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-sml.png",
+        "48" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-med.png",
+        "128" : "http://jivedev.ryanrutan.com:18090/images/ninjablocks-logo-lrg.png"
+    }
+}

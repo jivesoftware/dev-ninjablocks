@@ -1,0 +1,16 @@
+{
+    "package_version": "1.0",
+    "id": "f6f26651-2096-4255-87f9-f2fa91b333ef",
+    "type": "client-app",
+    "name": "f6f26651-2096-4255-87f9-f2fa91b333ef",
+    "description": "f6f26651-2096-4255-87f9-f2fa91b333ef",
+    "minimum_version": "0000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "status": "available",
+    "released_on": "2013-03-08T19:11:11.234Z",
+    "register_url": "http://ninjablocks-jivedev.rhcloud.com/jive/oauth/register",
+    "service_url": "http://ninjablocks-jivedev.rhcloud.com",
+    "redirect_url": "http://ninjablocks-jivedev.rhcloud.com"
+}
